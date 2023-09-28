@@ -1,0 +1,556 @@
+html, body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Ubiquitous;
+    src: url(../typography/Ubiquitous/Ubiquitous.ttf);
+}
+
+body {
+    background-color: #ffffffff;
+    font-family: Ubiquitous;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+nav div.hamburger {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000ff;
+}
+
+div.menu-1-and-menu-2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+div.menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+nav img.logo-1 {
+    margin-left: 20px;
+    margin-right: 30px;
+    width: 200px;
+}
+
+div.menu-1 ul {
+    padding: 0;
+    display: flex;
+    width: 300px;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.menu-1 ul a {
+    display: flex;
+
+}
+
+div.menu-1 ul img {
+    width: 15px;
+}
+
+div.menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+div.menu-2 ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 330px;
+    height: 100%;
+
+}
+
+div.menu-2 ul li a.register {
+    background-color: #ffe0ffff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+main {
+    background-image: url(../images/marte-banner\ .svg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+main div.register-now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 45px;  
+    font-weight: 100;
+}
+
+main div.register-now h1 {
+    text-align: center;
+    color: #ffffffff;
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: #ffe0ffff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px; 
+    border: 0;
+    font-size: 20px;
+    font-family: Ubiquitous;
+}
+
+section.prices {
+    display: flex;
+    justify-content: space-around;
+}
+
+span.green {
+    color: #0db272ff;
+}
+
+span.red {
+    color: #db3f53ff;
+}
+
+section.prices div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.prices div p {
+    font-size: 20px;   
+}
+
+section.trade {
+    background-color: #fe5f4aff;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.trade img {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section.trade div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section.trade div h1, footer h1 {
+    color: #ffffffff;
+}
+
+section.trade div p {
+    color: #ffffffff;
+}
+
+p {
+    font-size: 30px;   
+}
+
+section.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.questions h1 {
+    width: 90%;
+    text-align: center;
+}
+
+section.questions div.questions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+section.start-right-now {
+    background-color: #f3f3f4ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.start-right-now h1 {
+    margin-top: 60px;
+}
+
+section.start-right-now div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #333333ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div.footer-top {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer img.logo-2 {
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+footer section.contact {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section.contact div.social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer section.menu-2 {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer section.menu-2 ul {
+    padding: 0;
+}
+
+footer a {
+    color: #ffffffff;  
+}
+
+footer div.footer-bottom {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffffff;
+    margin-bottom: 10px;
+}
+
+footer div.footer-bottom a {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    main {
+        height: 900px;
+    }
+
+    main div.register-now h1 {
+        font-size: 80px;  
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    main {
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 2250px) {
+    main {
+        height: 1100px;
+    }
+
+    main div.register-now h1 {
+        font-size: 100px;  
+    }
+}
+
+@media screen and (max-width: 950px) {
+    nav div.hamburger {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+}   
+
+nav div.hamburger.open-hamburger {
+    position: fixed;
+    top: 37px;
+    right: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.line {
+        width: 40px;
+        height: 3px;
+        background: #333333ff;
+        margin: 3px;
+        transition: all 600ms ease-in-out;
+}
+
+.line.x:nth-of-type(1) {
+
+    transform: rotate(45deg);
+    transform-origin: top left;
+}
+
+.line.x:nth-of-type(2) {
+    transform-origin: center;
+    width: 0px;  
+}
+
+.line.x:nth-of-type(3) {
+    transform-origin: center;
+    width: 0px;  
+}
+
+.line.x:nth-of-type(4) {
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+}
+
+div.menu-1-and-menu-2 {
+    visibility: hidden;
+    top: 0;
+    right: -405px;
+    position: fixed;
+    background-color: #ffffffff;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    pointer-events: none;
+    width: 400px;
+} 
+
+.activated {
+    transition: all 600ms ease-in-out;
+}
+
+div.menu-1-and-menu-2.open {
+    visibility: visible;  
+    right: 0;
+    pointer-events: all;
+}
+
+div.menu-1 {
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+div.menu-1 ul {
+    flex-direction: column;
+    width: 100%;
+}
+
+
+div.menu-2 {
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+div.menu-2 ul {
+    flex-direction: column;
+    width: 100%;
+}
+
+
+section.prices {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section.prices div {
+    background-color: #ffe0ffff;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+section.prices div:last-child {
+    margin-bottom: 50px;
+}
+
+
+section.trade {
+    flex-direction: column;
+    align-items: center;
+}
+
+section.trade img {
+    margin-bottom: 0px;
+}
+
+
+section.trade div {
+    width: 90%;
+}
+
+
+section.questions {
+    margin-bottom: 50px;
+}
+
+section.questions div.questions {
+    flex-direction: column;
+    width: 80%;
+}
+
+
+section.start-right-now div {
+    width: 90%;
+}
+
+section.start-right-now h1 {
+    width: 90%;
+    text-align: center;
+}
+
+
+footer div.footer-top {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img.logo-2 {
+    margin-top: 30px;
+}
+
+footer section.contact {
+    justify-content: space-between;
+    height: 180px;
+}
+
+footer section.contact h1 {
+    margin: 0px;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+    main div.register-now {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    section.prices div {
+        width: 250px;
+    }
+
+    section.trade img {
+        width: 200px;
+    }
+
+    nav img.logo-1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 150px;
+    }
+
+    nav div.hamburger {
+        margin-left: 0px;
+    }  
+    
+    section.start-right-now div {
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 35px;  
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 20px;   
+    }
+
+    div.menu-1-and-menu-2 {
+        width: 300px;
+    } 
+
+
+}
+
+@media screen and (max-width: 375px) {
+    div.menu-1-and-menu-2 {
+        width: 250px;
+    } 
+}
+
+
+
+
+
+
